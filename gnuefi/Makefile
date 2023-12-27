@@ -60,7 +60,7 @@ libgnuefi.a: $(OBJS)
 
 gnu-efi.pc:
 	sed \
-		-e 's:@PREFIX@:$(PREFIX):g' \
+		-e 's:@PREFIX@:$(DESTDIR)$(PREFIX):g' \
 		-e 's:@EXEC_PREFIX@:$(EXEC_PREFIX):g' \
 		-e 's:@INCLUDEDIR@:$(INCLUDEDIR):g' \
 		-e 's:@LIBDIR@:$(LIBDIR):g' \
