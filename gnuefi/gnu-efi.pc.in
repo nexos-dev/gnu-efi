@@ -7,4 +7,4 @@ Name: gnu-efi
 Description: EFI development toolkit
 Version: @VERSION@
 Cflags: -I${includedir}/efi
-Libs: -lefi
+Libs: -lgnuefi
